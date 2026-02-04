@@ -1,6 +1,6 @@
 import { TodoList } from './components/TodoList';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
       <h1>🚀 React Query - Ejercicio 04</h1>
@@ -9,6 +9,6 @@ function App() {
       <TodoList />
     </div>
   );
-}
+};
 
 export default App;
